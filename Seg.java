@@ -18,8 +18,8 @@ public class Seg {
         String ZH_TOKEN = "<ZH_TOKEN>";
         String USER_ID = "<USER_ID>";
 
-        String FILE_PATH = "l.stl"; // 本地stl文件地址
-        String JAW_TYPE = "Lower"; // 上颌为Upper, 下颌为Lower
+        String FILE_PATH = "l.stl"; // STL file
+        String JAW_TYPE = "Lower"; // Upper for upper jaw, Lower for lower jaw
 
         try{
             HttpClient client = HttpClient.newBuilder()
